@@ -1,0 +1,26 @@
+camel: 1.0.0
+name: workspace/tone_analyser
+title: tone_analyser tone_analyser Skill
+description: Update this description -- tone_analyser tone_analyser
+inputs:
+  - name: input
+    title: input
+    parameters:
+      - name: text
+        type: string
+        description: Update this description
+        required: true
+    routing:
+      all:
+        action  : workspace/tone_analyser
+        runtime: cortex/functions
+        output: output1
+
+outputs:
+  - name: output1
+    title: output1
+    parameters:
+      - name: text
+        type: string
+        description: Update this description
+        required: true

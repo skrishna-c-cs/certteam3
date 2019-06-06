@@ -1,0 +1,8 @@
+.idea/
+venv/
+*.iml
+.coverage
+__pycache__
+env
+target
+build
